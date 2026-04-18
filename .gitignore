@@ -1,0 +1,13 @@
+# Environments
+venv/
+
+# API Keys and Secrets
+.env
+
+# Database
+chroma_db/
+data/
+
+# Python Cache
+__pycache__/
+*.pyc
