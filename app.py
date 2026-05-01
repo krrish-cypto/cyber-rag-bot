@@ -59,6 +59,19 @@ st.markdown("""
         border-left: 4px solid #3a7bd5;
         border-radius: 8px;
     }
+            /* Floating Watermark */
+    .watermark {
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        opacity: 0.4;
+        font-size: 0.85rem;
+        color: #a0aec0;
+        z-index: 9999;
+        font-family: monospace;
+        pointer-events: none; /* Ensures you can still click things behind it */
+        user-select: none;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -123,3 +136,5 @@ with col2:
                                 
                 except Exception as e:
                     st.error(f"System Error: {e}")
+# 5. Personal Watermark
+st.markdown('<div class="watermark">Built by Krishna Dubey</div>', unsafe_allow_html=True)
