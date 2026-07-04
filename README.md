@@ -202,11 +202,11 @@ This bot works best with:
 4. **Run Interface**: `streamlit run app.py`
 5. **Ask Questions**: Use the chat interface to query your knowledge base
 
-## � Author
+##  Author
 
 **Krishna Dubey**
 
-## �📝 License
+## 📝 License
 
 MIT License
 
